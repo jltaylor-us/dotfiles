@@ -1,0 +1,9 @@
+[user]
+	name = Jamie Taylor
+	email = Jamie.Taylor@pobox.com
+[core]
+	excludesfile = /Users/jltaylor/.gitignore_global
+[pull]
+	rebase = false
+[init]
+	defaultBranch = default

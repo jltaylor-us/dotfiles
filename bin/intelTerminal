@@ -1,0 +1,9 @@
+#!/usr/bin/osascript
+
+on run
+  tell application "Terminal"
+    activate
+    set newTab to do script("/usr/bin/arch -x86_64 /bin/bash -l ; exit")
+    set current settings of newTab to (first settings set whose name is "Intel Terminal")
+  end tell
+end run
